@@ -4,6 +4,7 @@ body {
     margin: auto;
 }
 
+
 header {
     position: absolute;
     right: 0;
@@ -15,6 +16,7 @@ header {
     border: solid 1px #dddddd;
     text-align: center;
 }
+
 
 .myname {
     position: relative;
@@ -85,7 +87,11 @@ a:visited {
 }
 
 .about {
-    color: #777777;
+    color: #4aaaa5;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: solid #777777 1px;
 }
 
 p {
@@ -125,3 +131,71 @@ footer {
 ::-webkit-scrollbar-thumb:hover {
     background: #585858; 
 }
+
+@media (max-width: 980px) {
+    
+    header {
+        position: static;
+        width: 980px;
+    }
+    #nav {
+        position: relative;
+        left: 600px;
+        bottom: 55px;
+        width: 200px;
+    }
+    
+    .myname {
+        position: static;
+    }
+
+    body {
+        width: 980px;
+    }
+
+    #main {
+        width: 600px;
+    }
+
+    }
+
+    @media (max-width: 768px) {
+
+        header {
+            width: 768px;
+        }
+        
+        #main {
+            width: 750px;
+            margin: auto;
+        }
+
+        #nav {
+            left: 500px;
+        }
+
+        body {
+            width: 768px;
+        }
+
+    }
+
+    @media (max-width: 640px) {
+
+        header {
+            width: 640px;
+
+        }
+        
+        .myname {
+            width: 100%;
+
+        }
+
+        #nav {
+            position: static;
+            width: 100%;
+            display: flex;
+            
+        }
+    }
