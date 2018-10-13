@@ -1,7 +1,6 @@
 body {
     width: 960px;
     margin: auto;
-    -webkit-transition: 0.3s;
     transition-duration: 0.3s;
 }
 
@@ -15,7 +14,6 @@ header {
     width: 100%;
     border: solid 1px #dddddd;
     text-align: center;
-    -webkit-transition: 0.3s;
     transition-duration: 0.3s;
 }
 
@@ -30,7 +28,6 @@ header {
     color: #ffffff;
     text-align: center;
     padding-top: 15px;
-    -webkit-transition: 0.3s;
     transition-duration: 0.3s;
 }
 
@@ -43,34 +40,29 @@ header {
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
     text-decoration: none;
-    -webkit-transition: 0.3s;
     transition-duration: 0.3s;
 }
 
 .nav {
     margin: 5px;
-    -webkit-transition: 0.3s;
     transition-duration: 0.3s;
 }
 
 a {
     text-decoration: none;
     color: #777777;
-    -webkit-transition: 0.3s;
     transition-duration: 0.3s;
 }
 
 a:link {
     text-decoration: none;
     color: #777777;
-    -webkit-transition: 0.3s;
     transition-duration: 0.3s;
 }
 
 a:visited {
     color: #777777;
     text-decoration: none;
-    -webkit-transition: 0.3s;
     transition-duration: 0.3s;
 }
 
@@ -85,21 +77,18 @@ a:visited {
     left: auto;
     right: auto;
     margin: 15px;
-    -webkit-transition: 0.3s;
     transition-duration: 0.3s;
 }
 
 .contact {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #4aaaa5;
-    -webkit-transition: 0.3s;
     transition-duration: 0.3s;
 }
 
 p {
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
-    -webkit-transition: 0.3s;
     transition-duration: 0.3s;
 }
 
@@ -108,7 +97,6 @@ input {
     padding: 12px;
     border: 1px solid #777777;
     border-radius: 4px;
-    -webkit-transition: 0.3s;
     transition-duration: 0.3s;
 }
 
@@ -122,7 +110,6 @@ textarea {
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
-    -webkit-transition: 0.3s;
     transition-duration: 0.3s;
 }
 
@@ -134,13 +121,11 @@ textarea {
     color: #ffffff;
     padding: 12px 20px;
     font-family: Arial, Helvetica, sans-serif;
-    -webkit-transition: 0.3s;
     transition-duration: 0.3s;
 }
 
 .send:hover {
     background-color: #53cab6;
-    -webkit-transition: 0.3s;
     transition-duration: 0.3s;
 }
 
@@ -155,7 +140,6 @@ footer {
     height: 33px;
     color: #ffffff;
     border-top: 8px solid #4aaaa5;
-    -webkit-transition: 0.3s;
     transition-duration: 0.3s;
 }
 
