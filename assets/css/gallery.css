@@ -1,16 +1,22 @@
 body {
     width: 960px;
     margin: auto;
+    -webkit-transition: 0.3s;
+    transition-duration: 0.3s;
 }
 
 html {
     height: 100%;
     margin: 0;
+    -webkit-transition: 0.3s;
+    transition-duration: 0.3s;
 }
 
 .wrapper {
     min-height: 100%;
     margin-bottom: -33px;
+    -webkit-transition: 0.3s;
+    transition-duration: 0.3s;
 }
 
 header {
@@ -23,6 +29,8 @@ header {
     width: 100%;
     border: solid 1px #dddddd;
     text-align: center;
+    -webkit-transition: 0.3s;
+    transition-duration: 0.3s;
 }
 
 .myname {
@@ -36,6 +44,8 @@ header {
     color: #ffffff;
     text-align: center;
     padding-top: 15px;
+    -webkit-transition: 0.3s;
+    transition-duration: 0.3s;
 }
 
 #nav {
@@ -47,25 +57,35 @@ header {
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
     text-decoration: none;
+    -webkit-transition: 0.3s;
+    transition-duration: 0.3s;
 }
 
 .nav {
     margin: 5px;
+    -webkit-transition: 0.3s;
+    transition-duration: 0.3s;
 }
 
 a {
     text-decoration: none;
     color: #777777;
+    -webkit-transition: 0.3s;
+    transition-duration: 0.3s;
 }
 
 a:link {
     text-decoration: none;
     color: #777777;
+    -webkit-transition: 0.3s;
+    transition-duration: 0.3s;
 }
 
 a:visited {
     color: #777777;
     text-decoration: none;
+    -webkit-transition: 0.3s;
+    transition-duration: 0.3s;
 }
 
 #main {
@@ -78,22 +98,30 @@ a:visited {
     left: auto;
     right: auto;
     margin: 15px;
+    -webkit-transition: 0.3s;
+    transition-duration: 0.3s;
 }
 
 .title {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #4aaaa5;
     padding-left: 20px;
+    -webkit-transition: 0.3s;
+    transition-duration: 0.3s;
 }
 
 .link {
     position: relative;
     text-align: center;
     width: 200px;
+    -webkit-transition: 0.3s;
+    transition-duration: 0.3s;
 }
 
 .item {
     margin: 28px;
+    -webkit-transition: 0.3s;
+    transition-duration: 0.3s;
 }
 
 .description {
@@ -107,19 +135,9 @@ a:visited {
     color: #ffffff;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding-top: 15px;
+    -webkit-transition: 0.3s;
+    transition-duration: 0.3s;
 }
-
-/*.push, footer {
-    height: 33px;
-    border-top: 8px solid #4aaaa5;
-    color: #ffffff;
-    position: sticky;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    background: #777777;
-}*/
 
 footer {
     background: #666666;
@@ -132,6 +150,8 @@ footer {
     height: 33px;
     color: #ffffff;
     border-top: 8px solid #4aaaa5;
+    -webkit-transition: 0.3s;
+    transition-duration: 0.3s;
 }
 
 ::-webkit-scrollbar {
@@ -149,3 +169,107 @@ footer {
 ::-webkit-scrollbar-thumb:hover {
     background: #585858; 
 }
+
+@media (max-width: 980px) {
+    
+    header {
+        position: static;
+        width: 980px;
+    }
+    #nav {
+        position: relative;
+        left: 600px;
+        bottom: 55px;
+        width: 200px;
+    }
+    
+    .myname {
+        position: static;
+    }
+
+    body {
+        width: 980px;
+    }
+
+    #main {
+        width: 620px;
+    }
+
+    }
+
+    @media (max-width: 768px) {
+
+        header {
+            width: 768px;
+        }
+        
+        #main {
+            width: 750px;
+            margin: auto;
+        }
+
+        #nav {
+            left: 500px;
+        }
+
+        body {
+            width: 768px;
+        }
+
+        .link {
+            width: 280px;
+        }
+
+        img {
+            width: 280px;
+        }
+
+        .description {
+            width: 280px;
+        }
+
+    }
+
+    @media (max-width: 640px) {
+
+        header {
+            width: 100%;
+
+        }
+        
+        .myname {
+            width: 100%;
+
+        }
+
+        #nav {
+            position: static;
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            border-bottom: #777777 1px solid;
+        }
+
+        body {
+            width: 100%;
+        }
+
+        #main {
+            width: 100%;
+            margin-top: 2%;
+        }
+
+
+
+        .item {
+            width: 500px;
+        }
+
+        .description {
+            width: 500px;
+            height: 50px;
+            padding-top: 25px;
+            font-size: 1.2em;
+        }
+
+    }

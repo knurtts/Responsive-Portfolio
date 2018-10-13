@@ -1,6 +1,8 @@
 body {
     width: 960px;
     margin: auto;
+    -webkit-transition: 0.3s;
+    transition-duration: 0.3s;
 }
 
 header {
@@ -13,6 +15,8 @@ header {
     width: 100%;
     border: solid 1px #dddddd;
     text-align: center;
+    -webkit-transition: 0.3s;
+    transition-duration: 0.3s;
 }
 
 .myname {
@@ -26,6 +30,8 @@ header {
     color: #ffffff;
     text-align: center;
     padding-top: 15px;
+    -webkit-transition: 0.3s;
+    transition-duration: 0.3s;
 }
 
 #nav {
@@ -37,25 +43,35 @@ header {
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
     text-decoration: none;
+    -webkit-transition: 0.3s;
+    transition-duration: 0.3s;
 }
 
 .nav {
     margin: 5px;
+    -webkit-transition: 0.3s;
+    transition-duration: 0.3s;
 }
 
 a {
     text-decoration: none;
     color: #777777;
+    -webkit-transition: 0.3s;
+    transition-duration: 0.3s;
 }
 
 a:link {
     text-decoration: none;
     color: #777777;
+    -webkit-transition: 0.3s;
+    transition-duration: 0.3s;
 }
 
 a:visited {
     color: #777777;
     text-decoration: none;
+    -webkit-transition: 0.3s;
+    transition-duration: 0.3s;
 }
 
 #main {
@@ -69,16 +85,22 @@ a:visited {
     left: auto;
     right: auto;
     margin: 15px;
+    -webkit-transition: 0.3s;
+    transition-duration: 0.3s;
 }
 
 .contact {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #4aaaa5;
+    -webkit-transition: 0.3s;
+    transition-duration: 0.3s;
 }
 
 p {
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
+    -webkit-transition: 0.3s;
+    transition-duration: 0.3s;
 }
 
 input {
@@ -86,6 +108,8 @@ input {
     padding: 12px;
     border: 1px solid #777777;
     border-radius: 4px;
+    -webkit-transition: 0.3s;
+    transition-duration: 0.3s;
 }
 
 textarea {
@@ -98,6 +122,8 @@ textarea {
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
+    -webkit-transition: 0.3s;
+    transition-duration: 0.3s;
 }
 
 .send {
@@ -108,10 +134,14 @@ textarea {
     color: #ffffff;
     padding: 12px 20px;
     font-family: Arial, Helvetica, sans-serif;
+    -webkit-transition: 0.3s;
+    transition-duration: 0.3s;
 }
 
 .send:hover {
     background-color: #53cab6;
+    -webkit-transition: 0.3s;
+    transition-duration: 0.3s;
 }
 
 footer {
@@ -125,6 +155,8 @@ footer {
     height: 33px;
     color: #ffffff;
     border-top: 8px solid #4aaaa5;
+    -webkit-transition: 0.3s;
+    transition-duration: 0.3s;
 }
 
 ::-webkit-scrollbar {
@@ -142,3 +174,121 @@ footer {
 ::-webkit-scrollbar-thumb:hover {
     background: #585858; 
 }
+
+@media (max-width: 980px) {
+    
+    header {
+        position: static;
+        width: 100%;
+    }
+    #nav {
+        position: relative;
+        left: 600px;
+        bottom: 55px;
+        width: 200px;
+    }
+    
+    .myname {
+        position: static;
+    }
+
+    body {
+        width: 980px;
+    }
+
+    .container {
+        width: 600px;
+    }
+
+    input {
+        width: 580px;
+    }
+
+    textarea {
+        width: 580px;
+    }
+
+    .send {
+        width: auto;
+    }
+
+    }
+
+    @media (max-width: 768px) {
+
+        #main {
+            width: 768px;
+        }
+
+        #nav {
+            left: 500px;
+        }
+
+        body {
+            width: 768px;
+            margin: none;
+            padding: none;
+        }
+
+        .container {
+            width: 768px;
+        }
+
+        input {
+            width: 630px;
+        }
+    
+        textarea {
+            width: 630px;
+        }
+    
+        .send {
+            width: auto;
+        }
+
+    }
+
+    @media (max-width: 640px) {
+        
+        .myname {
+            width: 640px;
+        }
+
+        #nav {
+            position: static;
+            width: 640px;
+            display: flex;
+            justify-content: space-around;
+            border-bottom: #777777 1px solid;
+            margin-bottom: 1%;
+        }
+
+        
+        body {
+            width: 640px;
+        }
+
+        #main {
+            top: 130px;
+            left: -10px;
+            width: 630px;
+            padding: 7px;
+        }
+
+        input {
+            width: 562px;
+        }
+
+        textarea {
+            width: 587px;
+        }
+
+        .send {
+            margin-bottom: 1%;
+        }
+        .container {
+            width: 630px;
+        }
+
+
+    }
