@@ -260,18 +260,18 @@ footer {
         }
 
         input {
-            width: 562px;
+            width: 80%;
         }
 
         textarea {
-            width: 587px;
+            width: 80%;
         }
 
         .send {
             margin-bottom: 1%;
         }
         .container {
-            width: 630px;
+            width: 95%;
         }
 
 

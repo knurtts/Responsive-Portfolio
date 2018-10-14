@@ -246,14 +246,15 @@ footer {
 
 
         .item {
-            width: 500px;
+            width: 80%;
         }
 
         .description {
-            width: 500px;
+            width: 80%;
             height: 50px;
             padding-top: 25px;
             font-size: 1.2em;
+            padding-right: 4%;
         }
 
     }
