@@ -98,11 +98,22 @@ a:visited {
     transition-duration: 0.3s;
 }
 
+
+
 .link {
     position: relative;
     text-align: center;
     width: 200px;
     transition-duration: 0.3s;
+}
+
+img {
+
+    width: 250px;
+}
+
+img:hover {
+    border: 5px #777777 solid;
 }
 
 .item {
@@ -122,6 +133,12 @@ a:visited {
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding-top: 15px;
     transition-duration: 0.3s;
+}
+
+.description:hover {
+    background: #028680;
+    height: 35px;
+    width: 260px;
 }
 
 footer {
